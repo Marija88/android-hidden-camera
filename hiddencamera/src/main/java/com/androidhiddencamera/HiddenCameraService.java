@@ -128,7 +128,7 @@ public abstract class HiddenCameraService extends Service implements CameraCallb
                         WindowManager.LayoutParams.TYPE_SYSTEM_OVERLAY :
                         WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY,
                 WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE,
-                WindowManager.LayoutParams.FLAG_WATCH_OUTSIDE_TOUCH,
+              
                                                                            
                 PixelFormat.TRANSLUCENT);
 
